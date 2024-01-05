@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--todo 等会儿改图标-->
+    <item
+        android:id="@+id/itemClassCenter"
+        android:icon="@drawable/iconmonstr_school"
+        android:title="选课中心" />
+    <item
+        android:id="@+id/itemMe"
+        android:icon="@drawable/iconmonstr_school_p"
+        android:title="个人信息" />
+    <item
+        android:id="@+id/itemClassTable"
+        android:icon="@drawable/iconmonstr_check_mark"
+        android:title="选课单" />
+
+</menu>

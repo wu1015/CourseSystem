@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<!--    这样才能显示图标，否则就需要重写方法-->
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/menu_dot_vertical"
+        android:title="测试"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/itemLogout"
+                android:icon="@drawable/iconmonstr_door"
+                android:title="退出登录" />
+            <item
+                android:id="@+id/itemEditMsg"
+                android:icon="@drawable/iconmonstr_pencil"
+                android:title="编辑个人信息" />
+            <item
+                android:id="@+id/itemAbout"
+                android:icon="@drawable/iconmonstr_error"
+                android:title="关于" />
+        </menu>
+    </item>
+</menu>
